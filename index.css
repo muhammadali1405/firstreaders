@@ -1,0 +1,53 @@
+
+
+
+#row{
+ 
+  height: 2000px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+
+}
+.left-top{
+   
+    float: left;
+    height: 100px;
+    
+    
+}
+.right-top{
+    height: 100px;
+  
+    float: left;
+    }
+.r{
+    color: indianred;
+}
+.container{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+.basheer{
+    float: left;
+    display: inline-block;
+    
+}
+img{
+    
+}
+.basheer-quote{
+    float: left;
+    color: rgb(3, 3, 3);
+    font-weight: bolder;
+    padding-top:50px;
+    display: inline-block;
+    font-family: Verdana,Tahoma,Arial,sans-serif;
+    
+   
+}
+#mt{
+    float: left;
+}
