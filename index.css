@@ -61,24 +61,24 @@
 
 
 a:link {
-        color: red;
+        color: rgb(131, 10, 201);
         text-decoration: none;
       }
       
       /* visited link */
  a:visited {
-        color: green;
+        color: rgb(18, 25, 124);
         text-decoration: none;
       }
       
       /* mouse over link */
 a:hover {
-        color: rgb(206, 11, 11);
+        color: rgb(160, 27, 172);
         text-decoration: none;
       }
       
       /* selected link */
 :active {
-        color: blue;
+        color: rgb(0, 255, 64);
         text-decoration: none;
      }
