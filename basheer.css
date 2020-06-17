@@ -1,0 +1,38 @@
+.back-button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    
+    width: 75px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .back-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .back-button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 10px;
+    transition: 0.5s;
+  }
+  
+  .back-button:hover span {
+    padding-left: 15px;
+  }
+  
+  .back-button:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
