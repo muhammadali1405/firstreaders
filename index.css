@@ -35,9 +35,7 @@
     display: inline-block;
     
 }
-img{
-    
-}
+
 .basheer-quote{
     float: left;
     color: rgb(3, 3, 3);
@@ -50,4 +48,8 @@ img{
 }
 #mt{
     float: left;
+}
+.logo{
+   font-family:Bradley Hand, cursive;
+  
 }
