@@ -32,7 +32,7 @@
 .container{
     width: 100%;
     padding-top: 100px;
-    text-align: center;
+    
 }
 .basheer{
     float: left;
@@ -52,8 +52,9 @@
     
    
 }
-#mt{
+.nair{
     float: left;
+    padding-left: 0;
 }
 .logo{
    font-family:Bradley Hand, cursive;
