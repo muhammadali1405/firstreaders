@@ -45,15 +45,7 @@
 html {
   height: 100%;
 }
-body {
-  margin: 0;
-  min-height: 100%;
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333;
-}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -1842,7 +1834,8 @@ basheer-pic{
 }
 .fname{
   font-weight: 900;
-  color: #10074a;
+  color: rgb(15, 3, 83);
+  
 }
 .about-pic-1{
   background-image: url("../images/tovino-pic.jpg") !important;
