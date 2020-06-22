@@ -2085,14 +2085,13 @@ figcaption {
 }
 
 .item-image {
-  width: 25%;
+  width: 100%;
   height: 100%;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
-  background-position: 83% 21%;
-  background-size: 70%;
-  
-  padding-left: 57%;
-  margin-left: 39%;
+  background-position: 60% 21%;
+  background-size: 426px;
+  padding-left: 62%;
+  margin-left: 15%;
   background-repeat: no-repeat;
 }
   @media only screen and (max-width: 320px) {
