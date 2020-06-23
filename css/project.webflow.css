@@ -11,12 +11,7 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
-#container-fluid{
 
- 
-
-
-}
 
 
 .w-pagination-previous {
@@ -86,7 +81,7 @@
 }
 
 
-  body {
+body {
     margin: 0;
     min-height: 100%;
     background-color: rgb(255, 255, 255);
@@ -98,7 +93,7 @@
 
     font-size: 16px;
     line-height: 28px;
-  }
+}
  
 
 
