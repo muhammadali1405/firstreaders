@@ -31,6 +31,10 @@ color: rgb(42, 10, 94);
   color: rgb(15, 3, 83);
   
 }
+.filler{
+  font-weight: 800;
+  font-size: 150%;
+}
 
 .header{
 width: 100%;
