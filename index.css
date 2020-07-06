@@ -4,6 +4,11 @@
     color: black;
 
 }
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 44%, rgba(251,249,249,1) 71%, rgba(232,230,230,1) 100%); 
+
+}
 .logo{
     padding-left: 5%;
     padding-top: 20px;
@@ -41,10 +46,26 @@ letter-spacing: 2px;
 .first_body{
     width: 100%;
     height: 434px;
-    margin: 5px;
     background-image: url(img/basheer.jpg);
     background-position: right;
     background-repeat: no-repeat;
     padding-top: 232px;
     padding-left: 5%;
+}
+.second_body{
+    width: 100%;
+    height: 434px;
+    background-image: url(img/onv.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 232px;
+    padding-left: 5%;
+}
+.onvf{
+    color: #211c46;
+font-size: 29px;
+
+font-weight: 800;
+letter-spacing: 2px;
+
 }
