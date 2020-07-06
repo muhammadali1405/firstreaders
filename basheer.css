@@ -22,9 +22,10 @@ background-color: rgb(214, 238, 77);
 color: rgb(42, 10, 94);
 }
 .brand{
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
   color: #222;
+  padding-left: 5%;
 }
 .fname{
   font-weight: 900;
@@ -50,6 +51,9 @@ padding-top: 33px;
   position: fixed;
   top: 0;
   width: 100%;
+  -webkit-box-shadow: 0 3px 5px rgba(171, 177, 187, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(194, 195, 197, 0.3);
+    box-shadow: 0 3px 5px rgba(136, 137, 139, 0.3);
 }
 
 .sticky + .content {

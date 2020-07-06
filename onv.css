@@ -50,6 +50,9 @@
       position: fixed;
       top: 0;
       width: 100%;
+      -webkit-box-shadow: 0 3px 5px rgba(171, 177, 187, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(194, 195, 197, 0.3);
+    box-shadow: 0 3px 5px rgba(136, 137, 139, 0.3);
     }
     
     .sticky + .content {
