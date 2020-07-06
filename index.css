@@ -46,13 +46,8 @@ body{
     padding-top: 20px;
     float: left;
 }
-.basf{
-    color: #211c46;
-font-size: 29px;
 
-font-weight: 800;
-letter-spacing: 2px;
-}
+
     
 
 /* .data{
@@ -78,6 +73,13 @@ letter-spacing: 2px;
     padding-top: 232px;
     padding-left: 5%;
 }
+.basf{
+    color: #211c46;
+font-size: 29px;
+
+font-weight: 800;
+letter-spacing: 2px;
+}
 .onvf{
     color: #211c46;
 font-size: 29px;
@@ -86,3 +88,9 @@ font-weight: 800;
 letter-spacing: 2px;
 
 }
+a:hover {
+    color: #211c46;
+    text-decoration: none;
+    
+}
+
