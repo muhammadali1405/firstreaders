@@ -68,17 +68,17 @@ color: #222;
   margin-left: 10%;
   margin-right: 10%;
   line-height: 220%;
-  text-align: justify;
-  text-justify: inter-word;
+ 
   
 }
 .writer{
   font-weight:bold;
 
-  margin-right: 15%;
+  
 }
 .extra{
   font-style: italic;
+  text-align: center;
   
 }
 body{
