@@ -39,6 +39,7 @@
     padding-top: 20px;
     font-size: 28px;
     transition: background .5s, padding .5s;
+    text-decoration: none;
    
     
   }
