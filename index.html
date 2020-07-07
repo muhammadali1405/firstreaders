@@ -6,6 +6,7 @@
     <title>firstReaders</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    
 </head>
 
 <body>
@@ -44,39 +45,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script>
-                                                              //first code
-     let isTransparent = true;
-      const nav = document.getElementById("myHeader");
-
-      window.addEventListener('scroll', event => {
-          if (window.pageYOffset > 70 && isTransparent) {
-            nav.classList.add('_fixed');
-              isTransparent = false;
-            }
-
-       if (window.pageYOffset <= 70 && !isTransparent) {
-        nav.classList.remove('_fixed');
-        isTransparent = true;
-         }
-          });
-                                                                //second code
-      const nav1 = document.getElementById("logo_main");
-
-      window.addEventListener('scroll', event => {
-          if (window.pageYOffset > 70 ) {
-            nav1.classList.add('_fixed');
-              
-            }
-
-       if (window.pageYOffset <= 70) {
-        nav1.classList.remove('_fixed');
-       
-         }
-          });
-          /*the above two scripts are used to add a new class, so that  when the page is scrolled down
-          the header gets a new style and it will be animated to a small size and more space to view content
-          */
-    </script>
+  <script src="index.js">
 </body>
 </html>
