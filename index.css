@@ -1,36 +1,47 @@
-.header{
-    width: 100%;
-    height: 60px;
-    color: black;
-    /*background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 44%, rgba(251,249,249,1) 71%, rgba(232,230,230,1) 100%); 
-*/   background: white;
-
-}
-.sticky {
+.header {
+    display: flex;
+    background: transparent;
+    user-select: none;
     position: fixed;
-    top: 0;
+    height: 60px;
     width: 100%;
-    -webkit-box-shadow: 0 3px 5px rgba(171, 177, 187, 0.3);
-    -moz-box-shadow: 0 3px 5px rgba(194, 195, 197, 0.3);
-    box-shadow: 0 3px 5px rgba(136, 137, 139, 0.3);
-  }
-  
-.sticky + .content {
-    padding-top: 102px;
+    transition: background .4s, padding .4s;
+}
 
-  }
+.header span {
+    color:rgb(15, 3, 83);
+    font-weight: 700;
+}
+
+
+.header._fixed {
+    background: #ffffff;
+    height: 50px;
+    position: fixed;
+    
+}
+
+
+
   
 body{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 44%, rgba(251,249,249,1) 71%, rgba(232,230,230,1) 100%); 
 
 }
-.logo{
+#logo_main{
     padding-left: 5%;
     padding-top: 20px;
     font-size: 28px;
+    transition: background .5s, padding .5s;
    
     
+}
+#logo_main._fixed{
+    padding-left: 3%;
+    padding-top: 15px;
+    font-size: 20px;
+
 }
 .fname{
   font-weight: 900;
@@ -63,7 +74,8 @@ body{
     background-repeat: no-repeat;
     padding-top: 232px;
     padding-left: 5%;
-}
+   
+ }
 .second_body{
     width: 100%;
     height: 434px;
