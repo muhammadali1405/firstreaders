@@ -112,6 +112,11 @@ a:hover {
 }
 .footer_obj{
     margin-left: 10%;
+    margin-right: 10%;
     
     
+}
+#name,#email{
+    border-radius: 150px;
+    border-color: #211c46;
 }

@@ -59,17 +59,16 @@
                
                   <div class="col-md-6">
                       <div class="md-form mb-0">
-                        <label for="name" class="">Your name</label>
-                          <input type="text" id="name" name="name" class="form-control">
+                          <input placeholder="Name (Optional)" type="text" id="name" maxlength="75" name="name" class="form-control">
                           
+                          <br>
                       </div>
                   </div>
                 
                   <div class="col-md-6">
-                      <div class="md-form mb-0">
-                        <label for="email" class="">Your email</label>
-                          <input type="text" id="email" name="email" class="form-control">
-                          
+                      <div class="md-form mb-0"> 
+                          <input placeholder="Email (Optional)" type="text" id="email" name="email" class="form-control">
+                          <br>
                       </div>
                   </div>
                  
@@ -81,7 +80,7 @@
 
                       <div class="md-form">
                         <label for="message">Your message</label>
-                          <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                          <textarea type="text" aria-label="Your message" aria-required="true" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
                           
                       </div>
 
@@ -91,6 +90,7 @@
 
           </form>
           <br>
+          
 
           <div class="text-center text-md-left">
               <a class="btn btn-success" href="index.html" onclick="document.getElementById('contact-form').submit();">Send</a>
