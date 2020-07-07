@@ -32,3 +32,7 @@ window.addEventListener('scroll', event =>
     
 /*the above two scripts are used to add a new class, so that  when the page is scrolled down
      the header gets a new style and it will be animated to a small size and more space to view content */
+function myFunction() 
+    {
+    document.getElementById("contact-form").reset();
+    }
