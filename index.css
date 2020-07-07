@@ -10,7 +10,7 @@
 
 .header span {
     color:rgb(15, 3, 83);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -33,7 +33,7 @@ body{
 #logo_main{
     padding-left: 5%;
     padding-top: 20px;
-    font-size: 28px;
+    font-size: 25px;
     transition: background .5s, padding .5s;
    
     
@@ -44,11 +44,7 @@ body{
     font-size: 20px;
 
 }
-.fname{
-  font-weight: 900;
-  color: rgb(15, 3, 83);
-  
-}
+
 .left{
     width: 80%;
     float: left;
