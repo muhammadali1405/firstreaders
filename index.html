@@ -44,65 +44,48 @@
       <div class="footer">
           
        
-         <section class="mb-4">
-
-                    <h2 class="h1-responsive font-weight-bold text-center my-4">Help us Improve.</h2>
-  <div class="row">
-
-     
-      <div class="col-md-9 mb-md-0 mb-5 footer_obj">
-          <form id="contact-form" name="contact-form" action="https://script.google.com/macros/s/AKfycbz3RJObGyHrdsi94ZQMcfmljYDXW6_lBkTQJFtVQaIhdMhE1Gs/exec" method="POST">
-
          
-              <div class="row">
+  <div class="contact" id="contact">
+    <div class="container">
+        <h3>CONTACT</h3>
+        <div class="contact-form">
+            <form method="POST" id="webform" action="https://script.google.com/macros/s/AKfycbz3RJObGyHrdsi94ZQMcfmljYDXW6_lBkTQJFtVQaIhdMhE1Gs/exec">
+                <p class="comment-form-author">
+                    <label for="author"> </label>
+                    <input type="text"  class="textbox" name="name" value="Enter your name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name...';}" style="border-radius: 500px;">
+                </p>
+                <p class="comment-form-author">
+                    <label for="author"></label>
+                    <input type="text" class="textbox" name="email" value="Enter your email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email...';}" style="border-radius: 500px;"> 
+                    <span id="email-invalid" style="display:none;color:red">
+                        Must be a valid email address
+                    </span>
+                </p>
+                <p class="comment-form-author">
+                    <label for="author"></label>
+                    <textarea value="Enter your message..." name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Your Message..</textarea>
+                </p>
+                <input name="submit" type="submit" id="submit" value="Submit">
+            </form>
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div style="display:none;" id="thankyou_message">
+                <div class="header-form">
+                    <div class="left-form">
+                    <p id="logo_main-form"> <span class="fname-form"> first</span>Readers </p>
+                    </div>
+                    
+                </div>
+                <div id="Ack-form">  
+                    <p id="text-form">ThankYou for your feedback / Message. <br> You will be contacted shortly if necessary</p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-               
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input placeholder="Name (Optional)" type="text" id="name" maxlength="75" name="name" class="form-control">
-                          
-                          <br>
-                      </div>
-                  </div>
-                
-                  <div class="col-md-6">
-                      <div class="md-form mb-0"> 
-                          <input placeholder="Email (Optional)" type="text" id="email" name="email" class="form-control">
-                          <br>
-                      </div>
-                  </div>
-                 
-              </div>
-           
-              <div class="row">
 
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                        <label for="message">Your message</label>
-                          <textarea type="text" aria-label="Your message" aria-required="true" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
-                          
-                      </div>
-
-                  </div>
-              </div>
-      
-
-          </form>
-          <br>
-          
-
-          <div class="text-center text-md-left">
-              <a class="btn btn-success" href="Ack.html" onclick="document.getElementById('contact-form').submit();">Send</a>
-              
-              <button class="btn btn-danger" onclick="myFunction()" style="margin-left: 5%;" > Reset</button>
-          </div>
-          <div class="status"></div>
-      </div>
-    
-  </div>
-
-</section>
 
         
 
